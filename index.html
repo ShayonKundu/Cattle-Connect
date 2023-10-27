@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cattle Connect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="media/logo.jpg" alt="">
+        </div>
+        <div class="icons">
+            <a href="#"><i class="fa-sharp fa-solid fa-house-chimney fa-lg" style="color: #008000;"></i>Home</a>
+            <a href="#"><i class="fa-solid fa-circle-user fa-lg" style="color: #008000;"></i>Sign In</a>
+            <a href="#"><i class="fa-solid fa-circle-user fa-lg" style="color: #008000;"></i>Cattlemitra SignUp</a>
+            <a href="#"><i class="fa-solid fa-circle-user fa-lg" style="color: #008000;"></i>Vet SignUp</a>
+            <a href="#"><i class="fa-solid fa-bag-shopping fa-lg" style="color: #008000;"></i>Sell</a>
+            <a href="#"><i class="fa-solid fa-stethoscope fa-lg" style="color: #008000;"></i>Vet</a>
+            <a href="#"><i class="fa-sharp fa-solid fa-notes-medical fa-lg" style="color: #008000;"></i>Insurance</a>
+            <a href="#"><i class="fa-sharp fa-solid fa-rocket fa-lg" style="color: #008000;"></i>More</a>
+        </div>
+        <div class="lang">
+            <select>
+                <option>Change Language</option>
+                <option>English</option>
+                <option>Bengali</option>
+                <option>Gujarati</option>
+                <option>Hindi</option>
+                <option>Kannada</option>
+                <option>Malyalam</option>
+                <option>Marathi</option>
+                <option>Nepali</option>
+                <option>Odia</option>
+                <option>Punjabi</option>
+                <option>Sindhi</option>
+                <option>Tamil</option>
+                <option>Telugu</option>
+                <option>Urdu</option>
+            </select>
+        </div>
+        <div class="login" id="login-btn">
+            <i class="fa-sharp fa-solid fa-user fa-2xl icons"></i>
+        </div>
+
+        <div class="login-form-container">
+
+            <span id="close-login-form" class="fas fa-times fa"></span>
+
+            <form action="">
+                <h3>user login</h3>
+                <input type="email" placeholder="Email" class="box">
+                <input type="password" placeholder="Password" class="box">
+                <p> forget your password <a href="#">click here</a> </p>
+                <input type="submit" value="login" class="btn">
+                <p>or login with</p>
+                <div class="buttons">
+                    <input type="submit" value="google" class="btn">
+                    <input type="submit" value="facebook" class="btn">
+                </div>
+                <p> don't have an account <a href="#">create one</a> </p>
+            </form>
+
+        </div>
+    </nav>
+
+    <section class="section" id="body">
+        <div class="header">
+            <h3>CATTLE CONNECT- Your Livestock Marketplace</h3>
+            <input type="text" placeholder="What are you looking for?">
+            <button type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper content">
+
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="media/1.jpg" alt="">
+                        </div>
+                        <div class="content">Best Livestock At Fair Price</div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="media/2.jpg" alt="">
+                        </div>
+                        <div class="content">Buy or Sell Livestock Online</div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="media/3.jpg" alt="">
+                        </div>
+                        <div class="content">Pan-India Transport Facility Available</div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="media/4.jpg" alt="">
+                        </div>
+                        <div class="content">Most Trusted Livestock Marketplace</div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="media/5.jpg" alt="">
+                        </div>
+                        <div class="content">Wide Range of Cattles</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="gallery">
+            <div class="parent">
+                <div class="div1">
+                    <img src="media/gal (1).jpg" alt="">
+                    <div class="div-content">
+                        <h3>
+                            Name
+                        </h3>
+                        <p>
+                            Description
+                        </p>
+                        <input type="button" value="Buy / Book Now">
+                    </div>
+                </div>
+                <div class="div2">
+                    <img src="media/gal (2).jpg" alt="">
+                    <div class="div-content">
+                        <h3>
+                            Name
+                        </h3>
+                        <p>
+                            Description
+                        </p>
+                        <input type="button" value="Buy / Book Now">
+                    </div>
+                </div>
+                <div class="div3">
+                    <img src="media/gal (3).jpg" alt="">
+                    <div class="div-content">
+                        <h3>
+                            Name
+                        </h3>
+                        <p>
+                            Description
+                        </p>
+                        <input type="button" value="Buy / Book Now">
+                    </div>
+                </div>
+                <div class="div4">
+                    <img src="media/gal (4).jpg" alt="">
+                    <div class="div-content">
+                        <h3>
+                            Name
+                        </h3>
+                        <p>
+                            Description
+                        </p>
+                        <input type="button" value="Buy / Book Now">
+                    </div>
+                </div>
+                <div class="div5">
+                    <img src="media/gal (5).jpg" alt="">
+                    <div class="div-content">
+                        <h3>
+                            Name
+                        </h3>
+                        <p>
+                            Description
+                        </p>
+                        <input type="button" value="Buy / Book Now">
+                    </div>
+                </div>
+                <div class="div6">
+                    <img src="media/gal (6).jpg" alt="">
+                    <div class="div-content">
+                        <h3>
+                            Name
+                        </h3>
+                        <p>
+                            Description
+                        </p>
+                        <input type="button" value="Buy / Book Now">
+                    </div>
+                </div>
+                <div class="div7">
+                    <img src="media/gal (7).jpg" alt="">
+                    <div class="div-content">
+                        <h3>
+                            Name
+                        </h3>
+                        <p>
+                            Description
+                        </p>
+                        <input type="button" value="Buy / Book Now">
+                    </div>
+                </div>
+                <div class="div8">
+                    <img src="media/gal (8).jpg" alt="">
+                    <div class="div-content">
+                        <h3>
+                            Name
+                        </h3>
+                        <p>
+                            Description
+                        </p>
+                        <input type="button" value="Buy / Book Now">
+                    </div>
+                </div>
+                <div class="div9">
+                    <img src="media/gal (9).jpg" alt="">
+                    <div class="div-content">
+                        <h3>
+                            Name
+                        </h3>
+                        <p>
+                            Description
+                        </p>
+                        <input type="button" value="Buy / Book Now">
+                    </div>
+                </div>
+                <div class="div10">
+                    <img src="media/gal (10).jpg" alt="">
+                    <div class="div-content">
+                        <h3>
+                            Name
+                        </h3>
+                        <p>
+                            Description
+                        </p>
+                        <input type="button" value="Buy / Book Now">
+                    </div>
+                </div>
+                <div class="div11">
+                    <img src="media/gal (11).jpg" alt="">
+                    <div class="div-content">
+                        <h3>
+                            Name
+                        </h3>
+                        <p>
+                            Description
+                        </p>
+                        <input type="button" value="Buy / Book Now">
+                    </div>
+                </div>
+                <div class="div12">
+                    <img src="media/gal (12).jpg" alt="">
+                    <div class="div-content">
+                        <h3>
+                            Name
+                        </h3>
+                        <p>
+                            Description
+                        </p>
+                        <input type="button" value="Buy / Book Now">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section" id="footer">
+        <div class="categories">
+            <div class="head">Our Categories: </div>
+            <div class="list">
+                <a href="javascript:void(0);" class="click-category" data-category="Cow"><b>Cow :</b></a>
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="Gir">Gir </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="HF">HF </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="Sahiwal">Sahiwal </a>
+                |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="Rathi">Rathi </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="Jersey">Jersey </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="Tharparkar">Tharparkar
+                </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="Hariyana ">Hariyana
+                </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="Sindhi">Sindhi </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="Punganur ">Punganur
+                </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="Kankrej">Kankrej </a>
+                |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="Kapila">Kapila </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="Odisha Desi">Odisha
+                    Desi </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow"
+                    data-breed="Kasargod Kullan">Kasargod
+                    Kullan </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="Deoni">Deoni </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="Vechur">Vechur </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow"
+                    data-breed="Cheruvally ">Cheruvally
+                </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="ONGOLE">ONGOLE </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="Vilwadri">Vilwadri
+                </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Cow" data-breed="Mewati">Mewati </a> |
+                <br>
+                <a href="javascript:void(0);" class="click-category" data-category="Buffalo"><b>Buffalo :</b></a>
+                <a href="javascript:void(0);" class="click-breed" data-category="Buffalo"
+                    data-breed="Jafarabadi">Jafarabadi
+                </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Buffalo" data-breed="Banni ">Banni </a>
+                |
+                <a href="javascript:void(0);" class="click-breed" data-category="Buffalo" data-breed="Murrah">Murrah
+                </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Buffalo" data-breed="Surti">Surti </a>
+                |
+                <a href="javascript:void(0);" class="click-breed" data-category="Buffalo" data-breed="Nili">Nili </a> |
+                <br>
+                <a href="javascript:void(0);" class="click-category" data-category="Goat"><b>Goat :</b></a>
+                <a href="javascript:void(0);" class="click-breed" data-category="Goat" data-breed="Barbari">Barbari </a>
+                |
+                <a href="javascript:void(0);" class="click-breed" data-category="Goat" data-breed="Boer">Boer </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Goat" data-breed="Malabari">Malabari
+                </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Goat" data-breed="Gujri">Gujri </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Goat" data-breed="Sirohi">Sirohi </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Goat" data-breed="Sannen">Sannen </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Goat" data-breed="Kota">Kota </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Goat"
+                    data-breed="Jamunapari">Jamunapari
+                </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Goat" data-breed="Beetal">Beetal </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Goat" data-breed="Jakhrana">Jakhrana
+                </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Goat" data-breed="Sojat">Sojat </a> |
+                <br>
+                <a href="javascript:void(0);" class="click-category" data-category="Sheep"><b>Sheep :</b></a>
+                <a href="javascript:void(0);" class="click-breed" data-category="Sheep" data-breed="NARI Suwarna">NARI
+                    Suwarna </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Sheep" data-breed="Bannur">Bannur </a>
+                |
+                <a href="javascript:void(0);" class="click-breed" data-category="Sheep"
+                    data-breed="Coimbatore ">Coimbatore
+                </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Sheep"
+                    data-breed="Sindhanoor Sheep">Sindhanoor Sheep </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Sheep" data-breed="Gaddi">Gaddi </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Sheep"
+                    data-breed="Deccani Sheep">Deccani
+                    Sheep </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Sheep"
+                    data-breed="Neelore  Jodipi">Neelore
+                    Jodipi </a> |
+                <br>
+                <a href="javascript:void(0);" class="click-category" data-category="Ox"><b>Ox :</b></a>
+                <a href="javascript:void(0);" class="click-breed" data-category="Ox" data-breed="Brahma">Brahma </a> |
+                <a href="javascript:void(0);" class="click-breed" data-category="Ox" data-breed="Ongole">Ongole </a>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="desc">
+                <div class="logo">
+                    <img src="media/logo.jpg" alt="">
+                </div>
+                <div class="desc-content">
+                    <p>Cattle-Connect is an online marketplace established with the aim to strengthen Livestock Economy
+                        of
+                        the country. It helps livestock enterprises/self-employed/individuals to achieve their full
+                        potential while ensuring livestock wellbeing.</p>
+                </div>
+            </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>
+                        <i class="fa-sharp fa-solid fa-house-chimney fa-lg" style="color: #fff;"></i>
+                        <p><strong>Corporate Office:</strong> Regus - Brigade IRV Centre, 9th floor, Nallurahalli,
+                            Whitefield, Bangalore 560066, Karnataka, India</p>
+                    </li>
+                    <li>
+                        <i class="fa-sharp fa-solid fa-envelope fa-lg" style="color: #ffffff;"></i>
+                        <p><strong>Email:</strong> info@cattleconnect.com</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone fa-lg" style="color: #ffffff;"></i>
+                        <p><strong>Phone:</strong> +9199999-99999</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="creds">&copy; 2023 Cattle-Connect.com</div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
