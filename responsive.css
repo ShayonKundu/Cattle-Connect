@@ -1,0 +1,44 @@
+@media screen and (min-width: 1023px) and (max-width: 1441px){
+    html {
+        font-size: 70%;
+    }
+
+    nav {
+        width: 90vw;
+        left: 5vw;
+    }
+
+    #body {
+        margin-top: 8%;
+        width: 90vw;
+        left: 5vw;
+    }
+
+    #body .card .image {
+        width: 45vw;
+    }
+
+    .parent {
+        width: 91vw;
+    }
+
+    .parent img {
+        width: 21.5vw;
+    }
+
+    .categories {
+        width: 90vw;
+        margin-left: 5%;
+    }
+
+    .footer {
+        width: 90vw;
+        left: 5vw;
+    }
+}
+
+@media screen and (min-width: 1439px) {
+    html {
+        font-size: 100%;
+    }
+}
